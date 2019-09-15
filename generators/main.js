@@ -5,7 +5,7 @@ class Cat {
   }
 
   Name() {
-    return (this.prefix + this.suffix).toUpperCase()
+    return this.prefix[0].toUpperCase() + this.prefix.slice(1) + this.suffix
   }
 }
 

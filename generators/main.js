@@ -12,4 +12,4 @@ class Cat {
 let generatedCat = new Cat('needle','whisker');
 
 const displayName = document.querySelector('#displayName')
-displayName.textContent = generatedCat.Name;
+displayName.textContent = generatedCat.Name();

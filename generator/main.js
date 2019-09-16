@@ -13,7 +13,8 @@ class Cat {
     const s_en = this.suffixes_en[si];
     const p_cn = this.prefixes_cn[pi];
     const s_cn = this.suffixes_cn[si];
-    return p_en[0].toUpperCase() + p_en.slice(1) + s_en + '<br>' + p_cn + s_cn;
+    return `<p id='displayName_en'>${p_en[0].toUpperCase() + p_en.slice(1) + s_en}</p>
+    <p id='displayName_cn'>${p_cn + s_cn}</p>`;
   }
 }
 
